@@ -1,0 +1,34 @@
+/* appears to give the whole page this font family */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* this appears to give everything in the body element this background color */
+body {
+  background-color: lemonchiffon;
+}
+
+/* This gives the header and footer a background color, a text color, and sizes them each equally*/
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+/*sets up the figure element with a width and a background color, which appears behind the caption section... ASK WHY NO HEIGHT?*/
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* Class selector to bold text where this class id is located */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* Id selector for the contact sections background color */
+#contact-section {
+  background-color: #f0ead6;
+}
